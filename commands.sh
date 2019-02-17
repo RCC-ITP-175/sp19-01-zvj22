@@ -18,11 +18,24 @@ q
 #############################################################
 dir
 
+# :::PROFESSOR FEEDBACK:::
+# Correct for MSDOS/Windows based operating systems
+# dir not always present on linux/unix systems
+# What command would you use for linux/unix based systems?
+# :::END PROFESSOR FEEDBACK:::
+
+
+
 #############################################################
 #    What is the command to list all files and folders 
 #    in a directory, including hidden files?
 #############################################################
 dir and then add file name
+
+# :::PROFESSOR FEEDBACK:::
+# Correct answer for MSDOS/Windows dir /a
+# What command would you use for linux/unix based systems?
+# :::END PROFESSOR FEEDBACK:::
 
 #############################################################
 #    What is the command to list all files and folders
@@ -31,6 +44,10 @@ dir and then add file name
 #############################################################
 dir
 
+# :::PROFESSOR FEEDBACK:::
+# Correct answer for MSDOS/Windows dir /a/q
+# What command would you use for linux/unix based systems?
+# :::PROFESSOR FEEDBACK END:::
 
 #############################################################
 #    What is the command to list all files and folders
@@ -40,6 +57,10 @@ dir
 dir
 ls ld
 
+# :::PROFESSOR FEEDBACK:::
+# Missing the argument to sort by last modified
+# :::PROFESSOR FEEDBACK END:::
+
 #############################################################
 #    What is the command to find where you are currently
 #    located in filesystem?
@@ -47,10 +68,16 @@ ls ld
 pwd
 
 #############################################################
-#    You are in the folder /course/week1 and need to move
+#    You are in the folder /course/week1 and need to change
 #    to the /course/week2 directory. How do you do that?
 #############################################################
 mv following the course/week2 directory
+
+# :::PROFESSOR FEEDBACK:::
+# mv is correct for moving files to the week2 directory
+# but will not move your terminal to that directory
+# I can see how my instructions are confusing, I'd changed them.
+# :::PROFESSOR FEEDBACK END:::
 
 #############################################################
 #    You are in the /course directory and need to create 
@@ -58,6 +85,11 @@ mv following the course/week2 directory
 #    exist. How do you do that?
 #############################################################
 mkdir
+
+# :::PROFESSOR FEEDBACK:::
+# The mkdir command requires you specify the name of the
+# directory you want to create
+# :::PROFESSOR FEEDBACK END:::
 
 #############################################################
 #    You are in the /course/2019/spring/week2/project
@@ -67,11 +99,21 @@ mkdir
 #############################################################
 mv
 course/2019/spring/week 2
+
+# :::PROFESSOR FEEDBACK:::
+# mv is correct if you want move files to the week2 directory
+# but will not move your terminal to that directory
+# :::PROFESSOR FEEDBACK END:::
+
 #############################################################
 #    You are in the /course/week2 directory and need
 #    to create an empty quiz.txt file. How do you do that?
 #############################################################
 mkdir
+
+# :::PROFESSOR FEEDBACK:::
+# mkdir will create directories but not files themselves
+# :::PROFESSOR FEEDBACK END:::
 
 #############################################################
 #    The directory you are working in currently has these files.
@@ -84,6 +126,10 @@ mkdir
 #############################################################
 rm
 
+# :::PROFESSOR FEEDBACK:::
+# rm requires argument stating which files to delete
+# :::PROFESSOR FEEDBACK END:::
+
 #############################################################
 #    The directory you are working in currently has these files.
 #           drwxrwxr-x 2 app  app  1024 Jul 13  2017 public
@@ -93,6 +139,11 @@ rm
 #    How would you copy the quiz.txt file into a new file test.txt?
 #############################################################
 cp filename 
+
+# :::PROFESSOR FEEDBACK:::
+# You're answer is not specific to the scenario above.
+# Specific which files you wish to copy
+# :::PROFESSOR FEEDBACK END:::
 
 #############################################################
 #    The directory you are working in currently has these files and directories.
@@ -106,6 +157,11 @@ cp filename
 #############################################################
 cp * /home/tom/backup
 
+# :::PROFESSOR FEEDBACK:::
+# This would copy these 4 html files but not to the public directory
+# and would also copy the public and views directories into /home/tom/backup
+# :::PROFESSOR FEEDBACKEND:::
+
 #############################################################
 #    The directory you are working in currently has these files and directories.
 #           -rw-rw-r-- 1 app  app   875 Jul 26 18:02 index.html
@@ -118,6 +174,9 @@ cp * /home/tom/backup
 #############################################################
 cp * /home/tom/backup
 
-
+# :::PROFESSOR FEEDBACK:::
+# This would copy the files, not move them
+# What command would you use to move them instead?
+# :::PROFESSOR FEEDBACK END:::
 
 
